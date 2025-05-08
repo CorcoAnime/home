@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.png') repeat fixed 100%;
+        }
+        header {
+            background-color: #333;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        img {
+            margin: 0 auto 1px auto;
+        }
+        a {
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+        }
+        a:hover {
+            color: darkcyan;
+        }
+        p {
+            color: white;
+            font-size: 20px;
+        }
+        details {
+        max-width: 500px;
+         overflow: hidden;
+        padding: 0 10px;
+        }
+        summary {
+ display: block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+}
+summary::-webkit-details-marker {
+ display: none; 
+}
+
+        details summary:hover {
+            color: darkcyan;
+        }
+        div.content { 
+ max-width: 500px;
+ box-sizing: border-box;
+ padding: 0 10px;
+ max-height: 0;
+ overflow: hidden;
+ border: 2px solid transparent;
+ transition: max-height 400ms ease-out, border 0ms 400ms linear;
+}
+
+details[open] + div.content {
+ max-height: 800px;
+ border-color: #888;
+ transition: max-height 400ms ease-out, border 0ms linear;
+}
+details[open] span::before {
+ rotate: 90deg;
+ transition: rotate 200ms ease-out;
+}
+.welcome {
+    display: block;
+    background-color: #29adde;
+  width: 300px;
+  border: 15px transparent green;
+  padding: 50px;
+  margin: 20px;
+  left: 35%;
+  position: relative;
+}
+.welcome2 {
+    display: block;
+    background-color: #29adde;
+  width: 600px;
+  border: 15px transparent green;
+  padding: 150px;
+  margin: 20px;
+  left: 35%;
+  position: relative;
+}
+.welcome3 {
+    display: block;
+    background-color:darkcyan;
+  width: 300px;
+  border: 15px transparent green;
+  padding: 50px;
+  margin: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="Corco Logo" style="width: 100px; height: auto;">
+        <h1>Corco</h1>
+    </header>
+    <div class="welcome">
+    <h1 style="color: white;;">مرحبا بك في موقع  Corco</h1>
+    <p style="color: white;">هذا الموقع مخصص لمحبين الانمي والمانجا .</p>
+    </div>
+    <br><br>
+    <h1 style="color: white;">عنا</h1>
+    <p style="color: white;">تنورونا كل الي عليك تخش سيرفر الديسكورد وورينا مواهبك في الرسم والكتابة والدبلجه.</p>
+    <br><br>
+
+    <div class="welcome2">
+        <h1 style="color: white;">:فريقنا</h1>
+        <div class="welcome3" style="color: white; font-size: 30px;">
+            :اداره الديسكورد
+            <br>
+            <img src="inklinng.png" style="width: 60px; height: 60px;" alt="">
+            @inklinng:
+            +201 273 788 112
+            <br>
+            <img src="Dragon.png" style="width: 60px; height: 60px;" alt="">
+            @_7xl: +965 6766 7146
+            <br>
+            الباقي بعدين نضيفهم
+        </div>
+        <div class="welcome3" style="color: white; font-size: 30px;">
+        :الرسامين
+        <br>
+        @placeholder:
+        +201 273 788 112
+        <br>
+        @placeholder:
+         +965 6766 7146
+        <br>
+        الباقي بعدين نضيفهم
+        </div>
+    </div>
+
+    </div>
+    <details>
+        <summary style="color: white;">روابطنا</summary>
+    </details>
+    <div class="content">
+        <h1 style="color: white;">روابطنا</h1>
+        <img src="download.png" alt="" style="width: 50px; height: auto;">
+        <a href="https://discord.gg/jKePJjygqr">سيرفرانا في الدسكود</a>
+        <br/>
+        <img src="download.jpeg" alt="" style="width: 50px; height: auto;">
+        <a href="https://whatsapp.com/channel/0029Vb66ssKGZNCvUZViCX0v">قناتنا في الواتساب</a>
+        <br/>
+        <img src="download (1).png" alt="" style="width: 50px; height: auto;">
+        <a href="https://www.youtube.com/@Corcoforanime">قناتنا في اليوتيوب</a>
+        <br>
+        </div>
+    
+    <footer style="color: white; font-size: 30px;">Copyright Corco ©, Inkcraft ©</footer>
+    <img src="WhatsApp Image 2025-05-08 at 11.45.04_f8c04fcc.jpg" alt="footer logo" style="width: 100px; height: auto;">
+</body>
+</html>
